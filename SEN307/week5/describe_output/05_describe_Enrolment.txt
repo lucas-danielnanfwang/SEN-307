@@ -1,0 +1,11 @@
+mysql> DESCRIBE Enrolment;
++------------------+------------------------+------+-----+-----------+-------------------+
+| Field            | Type                   | Null | Key | Default   | Extra             |
++------------------+------------------------+------+-----+-----------+-------------------+
+| enrolment_id     | int                    | NO   | PRI | NULL      | auto_increment    |
+| student_id       | int                    | NO   | MUL | NULL      |                   |
+| course_id        | int                    | NO   | MUL | NULL      |                   |
+| academic_session | varchar(9)             | NO   |     | 2026/2027 |                   |
+| semester         | enum('First','Second') | NO   |     | First     |                   |
+| enrolled_on      | date                   | YES  |     | curdate() | DEFAULT_GENERATED |
++------------------+------------------------+------+-----+-----------+-------------------+

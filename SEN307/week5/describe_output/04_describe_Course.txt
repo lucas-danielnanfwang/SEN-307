@@ -1,0 +1,11 @@
+mysql> DESCRIBE Course;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| course_id    | int          | NO   | PRI | NULL    | auto_increment |
+| course_code  | varchar(10)  | NO   | UNI | NULL    |                |
+| course_title | varchar(150) | NO   |     | NULL    |                |
+| credit_units | tinyint      | NO   |     | 3       |                |
+| description  | text         | YES  |     | NULL    |                |
+| dept_id      | int          | YES  | MUL | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+

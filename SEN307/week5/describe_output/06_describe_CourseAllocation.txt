@@ -1,0 +1,9 @@
+mysql> DESCRIBE CourseAllocation;
++------------------+------------+------+-----+-----------+----------------+
+| Field            | Type       | Null | Key | Default   | Extra          |
++------------------+------------+------+-----+-----------+----------------+
+| allocation_id    | int        | NO   | PRI | NULL      | auto_increment |
+| course_id        | int        | NO   | MUL | NULL      |                |
+| lecturer_id      | int        | NO   | MUL | NULL      |                |
+| academic_session | varchar(9) | NO   |     | 2026/2027 |                |
++------------------+------------+------+-----+-----------+----------------+

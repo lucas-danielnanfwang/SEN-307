@@ -1,0 +1,12 @@
+mysql> DESCRIBE Student;
++---------------+---------------+------+-----+---------+----------------+
+| Field         | Type          | Null | Key | Default | Extra          |
++---------------+---------------+------+-----+---------+----------------+
+| student_id    | int           | NO   | PRI | NULL    | auto_increment |
+| matric_no     | varchar(20)   | NO   | UNI | NULL    |                |
+| full_name     | varchar(100)  | NO   |     | NULL    |                |
+| phone         | varchar(15)   | YES  |     | NULL    |                |
+| gender        | enum('M','F') | YES  |     | NULL    |                |
+| date_of_birth | date          | YES  |     | NULL    |                |
+| dept_id       | int           | YES  | MUL | NULL    |                |
++---------------+---------------+------+-----+---------+----------------+

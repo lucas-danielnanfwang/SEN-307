@@ -1,0 +1,10 @@
+mysql> DESCRIBE Lecturer;
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| lecturer_id | int          | NO   | PRI | NULL    | auto_increment |
+| staff_no    | varchar(20)  | NO   | UNI | NULL    |                |
+| full_name   | varchar(100) | NO   |     | NULL    |                |
+| email       | varchar(100) | YES  | UNI | NULL    |                |
+| dept_id     | int          | NO   | MUL | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+

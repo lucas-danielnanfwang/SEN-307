@@ -1,0 +1,10 @@
++---------------------------+
+| Tables_in_sen307_20231234 |
++---------------------------+
+| Course                    |
+| CourseAllocation          |
+| Department                |
+| Enrolment                 |
+| Lecturer                  |
+| Student                   |
++---------------------------+
